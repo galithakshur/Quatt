@@ -12,7 +12,7 @@ The following packages are used:
 Install the required packages by running `npm install`.
 
 ## How to Run
-
+Update the user emails in the code before running to ensure email doesn't already exsist in the DB (lines 13 and 84) 
 After installing dependencies, execute `npm run test` to run the tests.
 
 ## API
