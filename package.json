@@ -1,0 +1,16 @@
+{
+  "name": "quatt",
+  "version": "1.0.0",
+  "description": "Test Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Galit",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
