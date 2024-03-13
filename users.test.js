@@ -10,7 +10,7 @@ let apiRequest = request(baseUrl);
 let user = {
   name: "Leela Turanga",
   gender: "female",
-  email: "leelat@planetexpress.com",
+  email: "tleela@planetexpress.com",
   status: "active",
 };
 
@@ -66,7 +66,7 @@ describe("Test /Users API", () => {
     user = {
       name: "Amy wong",
       gender: "Unknown",
-      email: "amy8@planetexpress.com",
+      email: "wamy@planetexpress.com",
       status: "active",
     };
     const response = await apiRequest
@@ -81,7 +81,7 @@ describe("Test /Users API", () => {
       id: userId,
       name: "Amy Wong",
       gender: "female",
-      email: "amyw@planetexpress.com",
+      email: "wamy@planetexpress.com",
       status: "active",
     };
     const response = await apiRequest
